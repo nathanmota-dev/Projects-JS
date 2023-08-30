@@ -1,4 +1,4 @@
-# 10 Projetos em JavaScript
+# Projetos em JavaScript
 
 Este repositório contém Projetos desenvolvidos em JavaScript, HTML e CSS para aprimorar minhas habilidades de programação e criar projetos visualmente atraentes. Cada projeto é um exemplo prático de aplicação em diferentes contextos, porém sempre manipulando o DOM.
 

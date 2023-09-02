@@ -28,7 +28,7 @@ Um gerador de números aleatórios que permite aos usuários gerar números alea
 
 Um contador simples que permite aos usuários aumentar, diminuir e redefinir um valor contado.
 
-### 7 . CRUD - JS
+### 7. CRUD - JS
 
 Cadastro de Funcionários Resposivo, que é um CRUD, com armazenamento no Local Storage.
 

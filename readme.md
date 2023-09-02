@@ -30,5 +30,9 @@ Um contador simples que permite aos usuários aumentar, diminuir e redefinir um 
 
 ### 7. CRUD - JS
 
-Cadastro de Funcionários Resposivo, que é um CRUD, com armazenamento no Local Storage.
+Cadastro de Funcionários Responsivo, que é um CRUD, com armazenamento no Local Storage.
+
+### 8. Calculadora
+
+Calculadora do MacBook
 

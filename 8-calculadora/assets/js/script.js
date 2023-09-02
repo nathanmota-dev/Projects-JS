@@ -26,11 +26,13 @@ function adicionarDigito(digito) {
 
 function fazerOperacao(novaOperacao) {
     if (numeroAtual) {
+        calcular();
         primeiroNumero = parseFloat(numeroAtual.replace(",", "."));
         numeroAtual = "";
     }
 
     operador = novaOperacao;
+    atualizarResultado();
 }
 
 function calcular() {
@@ -40,16 +42,16 @@ function calcular() {
 
     switch (operador) {
         case "+":
-            resultValue = primeiroNumero + segundaOperacao;
+            valorResultado = primeiroNumero + segundaOperacao;
             break
         case "-":
-            resultValue = primeiroNumero - segundaOperacao;
+            valorResultado = primeiroNumero - segundaOperacao;
             break
         case "×":
-            resultValue = primeiroNumero * segundaOperacao;
+            valorResultado = primeiroNumero * segundaOperacao;
             break
         case "÷":
-            resultValue = primeiroNumero / segundaOperacao;
+            valorResultado = primeiroNumero / segundaOperacao;
             break
         default:
             return;
@@ -64,9 +66,31 @@ function calcular() {
     operador = null;
     primeiroNumero = null;
     reiniciar = true;
-    //
+    //valorPorcentagem = null;
     atualizarResultado();
 
+}
+
+function limparCalculadora() {
+    numeroAtual = "";
+    primeiroNumero = null;
+    operador = null;
+    atualizarResultado();
+}
+
+function calcularPorcentagem() {
+    let resultado = parseFloat(numeroAtual) / 100;
+
+    if (["+", "-"].includes(operador)) {
+        resultado = resultado * (primeiroNumero || 1);
+    }
+
+    if (resultado.toString().split(".")[1]?.length > 5) {
+        resultado = resultado.toFixed(5).toString();
+    }
+
+    numeroAtual = resultado.toString();
+    atualizarResultado();
 }
 
 buttons.forEach((button) => {
@@ -74,6 +98,17 @@ buttons.forEach((button) => {
         const buttonText = button.innerText;
         if (/^[0-9,]+$/.test(buttonText)) {
             adicionarDigito(buttonText);
+        } else if (["+", "-", "×", "÷"].includes(buttonText)) {
+            fazerOperacao(buttonText); // Call fazerOperacao with the operator
+        } else if (buttonText === "=") {
+            calcular();
+        } else if (buttonText === "C") {
+            limparCalculadora();
+        } else if (buttonText === "±") {
+            numeroAtual = (
+                parseFloat(numeroAtual || primeiroNumero) * -1
+            ).toString();
+            atualizarResultado();
         }
     });
 });

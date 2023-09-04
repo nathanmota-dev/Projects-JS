@@ -1,6 +1,6 @@
 # Projetos em JavaScript
 
-Este repositório contém Projetos desenvolvidos em JavaScript, HTML e CSS para aprimorar minhas habilidades de programação e criar projetos visualmente atraentes. Cada projeto é um exemplo prático de aplicação em diferentes contextos, porém sempre manipulando o DOM.
+Este repositório contém Projetos desenvolvidos em JavaScript, HTML e CSS para aprimorar minhas habilidades de programação e criar projetos visualmente atraentes. Cada projeto é um exemplo prático de aplicação em diferentes contextos, porém sempre manipulando o DOM. O objetivo desse repositório é aprimorar minhas habilidades com JavaScript porém sempre criando projetos responsivos e bem apresentáveis.
 
 ## Projetos
 
@@ -35,4 +35,6 @@ Cadastro de Funcionários Responsivo, que é um CRUD, com armazenamento no Local
 ### 8. Calculadora
 
 Calculadora do MacBook
+
+### 9. Cronômetro
 

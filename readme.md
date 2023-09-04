@@ -8,7 +8,7 @@ Este repositório contém Projetos desenvolvidos em JavaScript, HTML e CSS para 
 
 Um relógio digital dinâmico que exibe a hora atual e é atualizado em tempo real.
 
-![Imagem 1](Projetos-JS\1-relogio-digital-dinamico\assets\img\img1.JPG)
+![Imagem 1](1-relogio-digital-dinamico/assets/img/img1.JPG)
 
 ### 2. Jogo da Memória
 

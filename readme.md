@@ -57,3 +57,20 @@ Calculadora do MacBook
 Cronômetro com opção de marcar o tempo.
 
 ![Imagem 9](9-cronometro/assets/img/img9.JPG)
+
+### 10. Dark Mode
+
+Dark Mode com JS
+
+![Imagem 10](/10-dark-mode/img/img10.JPG)
+
+### 11. Gerador de Senhas
+
+Gerador de Senhas com as opções: 
+- Tamanho da senha
+- Letras Minúsculas
+- Letras Maiúsculas
+- Números
+- Símbolos
+
+![Imagem 11](/11-gerador-de-senha/assets/img/img11.JPG)

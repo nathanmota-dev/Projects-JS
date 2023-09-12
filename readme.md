@@ -74,3 +74,10 @@ Gerador de Senhas com as opções:
 - Símbolos
 
 ![Imagem 11](/11-gerador-de-senha/assets/img/img11.JPG)
+
+
+### 12. Player de Música
+
+Player de Música com as funcões: play, pause, próxima música, música anterior, e Progress Bar onde o usuário clica em qualquer lugar da Progress Bar e a música alterna para aquele tempo exato.
+
+![Imagem 12](/12-player-de-musica/assets/img/img12.JPG)

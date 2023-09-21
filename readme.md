@@ -81,3 +81,9 @@ Gerador de Senhas com as opções:
 Player de Música com as funcões: play, pause, próxima música, música anterior, e Progress Bar onde o usuário clica em qualquer lugar da Progress Bar e a música alterna para aquele tempo exato.
 
 ![Imagem 12](/12-player-de-musica/assets/img/img12.JPG)
+
+### 13. Playlist de Vídeos
+
+PlayList de Vários Vídeos feita com JS.
+
+![Imagem 12](/13-playlist-video/assets/img/img13.JPG)
